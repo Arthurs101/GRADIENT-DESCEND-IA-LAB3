@@ -14,7 +14,7 @@ y = iris.target
 filtro = y < 2
 X, y = X[filtro], y[filtro]
 
-# Divición de datos de entrenamiento y prueba
+# División de datos de entrenamiento y prueba
 X_entrenamiento, X_prueba, y_entrenamiento, y_prueba = train_test_split(X, y, test_size=0.3, random_state=42)
 
 
